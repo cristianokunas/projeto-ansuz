@@ -1,0 +1,20 @@
+{
+    "local": "",
+    "max_disappear": 10,
+    "max_distance": 175,
+    "track_object": 4,
+    "confidence": 0.5,
+    "frame_width": 400,
+    "speed_estimation_zone": {
+        "A": 120,
+        "B": 160,
+        "C": 200,
+        "D": 240
+    },
+    "distance": 8.60,
+    "speed_limit": 50,
+    "display": true,
+    "camera": false,
+    "model_path": "ansuz/odin/config/MobileNetSSD_deploy.caffemodel",
+    "prototxt_path": "ansuz/odin/config/MobileNetSSD_deploy.prototxt"
+}

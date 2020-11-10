@@ -1,0 +1,19 @@
+# Requires:
+#
+# Pasta raiz projeto-ansuz
+# sudo apt-get install python3
+# sudo apt-get install python3-tk 
+# sudo pip3 install opencv-python==3.4.9.31 +
+# sudo pip3 install dlib
+# sudo pip3 install dropbox
+# sudo pip3 install imutils
+# sudo pip3 install json_minify
+# sudo pip3 install scipy
+# sudo pip3 install firebase-admin
+#
+# python speed_estimation_dl_video.py --conf config/config.json --input sample_data/cars.mp4
+
+# inform the user about framerates and speeds
+#print("[INFO] NOTE: When using an input video file, speeds will be " \
+#	"inaccurate because OpenCV can't throttle FPS according to the " \
+#	"framerate of the video. This script is for development purposes only.")
